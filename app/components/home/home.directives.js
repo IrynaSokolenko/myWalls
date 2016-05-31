@@ -1,4 +1,4 @@
-angular.module('angularstrapApp')
+angular.module('myWallsApp')
     .directive('heroBlock', function() {
         return {
             templateUrl: '/app/components/home/views/heroblock.view.html'

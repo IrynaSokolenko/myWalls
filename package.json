@@ -1,7 +1,7 @@
 {
-  "name": "Angular-Kickstart",
+  "name": "myWallsApp",
   "version": "1.0.0",
-  "description": "Angular Kickstart",
+  "description": "myWallsApp",
   "main": "Index.html",
   "scripts": {
     "postinstall": "bower cache clean && bower install",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JeremyMorgan/Angular-Kickstart.git"
+    "url": "https://github.com/IrynaSokolenko/myWalls.git"
   },
   "keywords": [
     "git"
   ],
-  "author": "Jeremy Morgan",
-  "license": "ISC",
+  "author": "Iryna Sokolenko",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JeremyMorgan/Angular-Kickstart/issues"
+    "url": "https://github.com/IrynaSokolenko/myWalls/issues"
   },
-  "homepage": "https://github.com/JeremyMorgan/Angular-Kickstart"
+  "homepage": "https://github.com/IrynaSokolenko/myWalls"
 }

@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('angularstrapApp')
+    angular.module('myWallsApp')
         .controller('homeController', homeController);
 
     homeController.$inject = ["$scope", "$http", "$window", "$q", "asyncService"];

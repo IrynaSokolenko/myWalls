@@ -1,9 +1,9 @@
 {
-  "name": "Angular-Kickstart",
+  "name": "myWalls",
   "version": "1.0.0",
-  "homepage": "https://github.com/JeremyMorgan/Angular-Kickstart",
+  "homepage": "https://github.com/IrynaSokolenko/myWalls",
   "authors": [
-    "Jeremy Morgan"
+    "Iryna Sokolenko"
   ],
   "description": "Angular Kickstart",
   "main": "index.html",

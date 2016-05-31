@@ -4,9 +4,9 @@
 
 angular
     
-    .module('angularstrapApp', [
+    .module('myWallsApp', [
         'ui.router',
-        'angularstrapApp.homeServices'
+        'myWallsApp.homeServices'
     ])
 
     .constant('CONFIG', 
