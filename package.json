@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/IrynaSokolenko/myWalls/issues"
   },
-  "homepage": "https://github.com/IrynaSokolenko/myWalls"
+  "homepage": "https://github.com/IrynaSokolenko/myWalls",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }

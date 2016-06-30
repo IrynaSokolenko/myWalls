@@ -1,0 +1,96 @@
+body {
+    background-color: #ecf0f1;
+    height: 100%;
+}
+
+.supreme-container {
+    height: 100vh;
+    background-color: #ecf0f1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font: 100% / 1.5 Arial;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #AFB42B;
+}
+.navbar a:hover {
+    color: #CDDC39;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #AFB42B;
+}
+
+.primary-color {
+    background-color: #CDDC39;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:400px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.navbar-inverse .navbar-nav > li > a.dark-primary-color:hover, .navbar-inverse .navbar-nav > li > a.dark-primary-color:focus {
+    color: #CDDC39;
+}
+
+.carousel-first {
+  background: url("../img/AfricanQueen.jpg") center center no-repeat;
+  background-size:contain;
+}
+
+.carousel-second {
+    background: url("../img/Cosmo.jpg") center center no-repeat;
+    background-size:contain;
+}
+
+.carousel-third {
+    background: url("../img/Freja.jpg") center center no-repeat;
+    background-size:contain;
+}
+
+.carousel-forth {
+    background: url("../img/SophieCharlotte.jpg") center center no-repeat;
+    background-size:contain;
+}
+
+.carousel {
+    background: #607D8B;
+}
+
+.cosmo1 {
+    background: url("../img/cosmo18321.jpg") no-repeat;
+    background-size:contain;
+    height: 200px;
+}
+
+.blackforest {
+    background: url("../img/BlackForest19920.jpg") no-repeat;
+    background-size:contain;
+    height: 200px;
+}
+
+.login-form {
+    background-color: #ffffff;
+}
+
+#grid1{
+    width: 1250px;
+    height: auto;
+}

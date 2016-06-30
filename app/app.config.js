@@ -1,12 +1,10 @@
-/**
- * Load modules for application
- */
-
 angular
-    
     .module('myWallsApp', [
+		'ngAnimate',
         'ui.router',
-        'myWallsApp.homeServices'
+		'ngTouch',
+		'ui.grid',
+        'ngCookies'
     ])
 
     .constant('CONFIG', 

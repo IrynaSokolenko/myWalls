@@ -5,7 +5,7 @@
   "authors": [
     "Iryna Sokolenko"
   ],
-  "description": "Angular Kickstart",
+  "description": "MyWalls app will help to make your interior awesome! ",
   "main": "index.html",
   "keywords": [
     "git",
@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.6",
+    "angular": "^1.5.6",
     "bootstrap": "~3.3.5",
     "jquery": "~2.1.4",
     "angular-ui-router": "~0.2.15"

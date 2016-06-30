@@ -2,11 +2,11 @@
     'use strict';
 
     angular.module('myWallsApp')
-        .controller('footerController', footerController);
+        .controller('modalController', modalController);
 
-    footerController.$inject = ["$scope", "$http", "$window", "$q", "asyncService"];
+    modalController.$inject = ["$scope", "$http", "$window", "$q", "asyncService"];
 
-    function footerController($scope, $http, $window, $q, asyncService) {
+    function modalController($scope, $http, $window, $q, asyncService) {
 
         var vm = this;
 

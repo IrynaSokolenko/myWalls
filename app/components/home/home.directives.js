@@ -1,11 +1,11 @@
 angular.module('myWallsApp')
-    .directive('heroBlock', function() {
+    .directive('homeDirective', function() {
         return {
-            templateUrl: '/app/components/home/views/heroblock.view.html'
+            templateUrl: 'app/components/home/views/home.view.html'
         };
     })
-    .directive('subSection', function() {
+    .directive('carouselDirective', function() {
         return {
-            templateUrl: '/app/components/home/views/subsection.view.html'
+            templateUrl: 'app/components/home/views/carousel.view.html'
         };
 });

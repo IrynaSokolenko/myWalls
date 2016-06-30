@@ -1,3 +1,13 @@
-/**
- * Created by isokol on 31.05.2016.
- */
+angular.module('myWallsApp')
+    .directive('navbarDirective', navbarDirective);
+
+navbarDirective.$inject = ['$log'];
+
+function navbarDirective($log) {
+    $log.info('navbarDirective injected');
+
+    return {
+        templateUrl: 'app/components/navbar/views/navbar.view.html'
+    };
+};
+
